@@ -2,6 +2,8 @@
 
 Based on [DanWahlin's Angular Boilerplate](https://github.com/DanWahlin/Angular-BareBones)
 
+This version have `[mod]` directive. Plain version see [here](https://github.com/tenphi/angular-css-todomvc/)
+
 ## Running the Application
 
 1. Install [Node.js](http://nodejs.org)
