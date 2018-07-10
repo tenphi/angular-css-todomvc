@@ -4,6 +4,27 @@ Based on [DanWahlin's Angular Boilerplate](https://github.com/DanWahlin/Angular-
 
 This is base version. Version with `[mod]` directive you can see [here](https://github.com/tenphi/angular-css-todomvc/tree/mod-directive)
 
+## Order of css rules
+
+* Root class
+  * Root styles
+  * Root states (`:hover`, `:active`, etc)
+  * Root pseudo-classes (`::before`, `::after`, etc)
+    * Root pseudo-classes styles
+    * Root pseudo-classes states
+    * ...
+  * Element class
+    * Element styles
+      * Element states
+      * Element pseudo-classes
+        * Element pseudo-classes styles
+        * Element pseudo-classes states
+        * ...
+      * ...
+    * ...
+  * Context styles (for example: `.block--mod .root__element`)
+    * ...
+
 ## Running the Application
 
 1. Install [Node.js](http://nodejs.org)
