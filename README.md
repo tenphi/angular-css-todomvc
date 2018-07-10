@@ -13,17 +13,17 @@ This is base version. Version with `[mod]` directive you can see [here](https://
     * Root pseudo-classes styles
     * Root pseudo-classes states
     * ...
-  * Element class
-    * Element styles
-      * Element states
-      * Element pseudo-classes
-        * Element pseudo-classes styles
-        * Element pseudo-classes states
-        * ...
+* Element class
+  * Element styles
+    * Element states
+    * Element pseudo-classes
+      * Element pseudo-classes styles
+      * Element pseudo-classes states
       * ...
     * ...
-  * Context styles (for example: `.block--mod .root__element`)
-    * ...
+  * ...
+* Context styles (for example: `.root.-mod .element`)
+  * ...
 
 ## Running the Application
 
