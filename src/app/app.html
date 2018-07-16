@@ -7,7 +7,7 @@
 		<input class="toggle-all" id="toggle-all" type="checkbox" *ngIf="todoStore.todos.length" #toggleall [checked]="todoStore.allCompleted()" (click)="todoStore.setAllTo(toggleall.checked)">
 		<label class="toggle-all-label" for="toggle-all">Mark all as complete</label>
 		<ul class="todo-list">
-			<li class="todo" [class.-completed]="todo.completed" [class.-editing]="todo.editing" *ngFor="let todo of todoStore.todos">
+			<li class="todo" [class.--completed]="todo.completed" [class.--editing]="todo.editing" *ngFor="let todo of todoStore.todos">
 				<div class="todo-inner">
 					<input class="todo-toggle" type="checkbox" (click)="toggleCompletion(todo)" [checked]="todo.completed">
 					<label class="todo-label" (dblclick)="editTodo(todo)">{{todo.title}}</label>
